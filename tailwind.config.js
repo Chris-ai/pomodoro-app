@@ -17,6 +17,7 @@ export default {
         white: "#FFFFFF",
         "light-gray": "#EFF1FA",
         "dark-gray": "#161932",
+        "border-gray": "#E3E1E1",
       },
       fontSize: {
         huge: "6.25rem", // 100px
@@ -26,6 +27,15 @@ export default {
         small: "0.8125rem", // 13px
         normal: "0.875rem", // 14px
         tiny: "0.75rem", // 12px
+      },
+      keyframes: {
+        showUp: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+      },
+      animation: {
+        showUp: "showUp .5s",
       },
     },
   },

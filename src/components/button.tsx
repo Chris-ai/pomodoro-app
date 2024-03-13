@@ -15,7 +15,10 @@ export const PomodoroButton: React.FC<IProps> = ({
   return (
     <button
       type={type}
-      className={cn("py-4 font-bold text-base text-white", className)}
+      className={cn(
+        "py-4 px-12 rounded-full font-bold text-base text-white",
+        className
+      )}
     >
       {children}
     </button>
