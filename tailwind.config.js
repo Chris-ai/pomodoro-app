@@ -20,6 +20,7 @@ export default {
       },
       fontSize: {
         huge: "6.25rem", // 100px
+        xlarge: "5rem", // 80px
         large: "1.75rem", // 28px
         medium: "1rem", // 16px
         small: "0.8125rem", // 13px
